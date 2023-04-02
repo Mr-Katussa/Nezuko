@@ -71,15 +71,15 @@ module.exports = {
                        
 🧧 *Prefix :* [ ${prefix} ]
                        
-📝 Here's the *Commands* listed below :\n\n`;
-      const keys = Object.keys(category);
-      for (const key of keys) {
-        txt += `*${key.toUpperCase()} ${
-          emo[keys.indexOf(key)]
-        } :-*  \n\`\`\`${category[key]
-          .map((cmd) => cmd.name)
-          .join(", ")}\`\`\`\n\n`;
-      }
+📝 Here's the *Commands* listed below :
+●────────────●
+       *A L L M E N U*
+●────────────●
+    〇 bugmenu
+    〇 downoadmenu
+    〇 groupmenu
+    〇 ownermenu
+●────────────●\n\n`;
       txt += `📗 Type *${prefix}help* <Command-Name> or <Command-Name> --info\n\n`;
       txt += `*©Eternity-Team*`
       const eternity = [
